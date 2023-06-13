@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Scanner;
 
 class Dicegame{
     public static void main(String args[]){
@@ -12,7 +13,7 @@ class Dicegame{
 	int num1 = ran.nextInt(7);
 	int num2 = ran.nextInt(7);
 	
-	System.out.println("Rolling dice...");
+	System.out.println("Rolling the dice...");
 	System.out.println("Die 1: "+num1);
 	System.out.println("Die 2: "+num2);
 
