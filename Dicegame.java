@@ -2,6 +2,12 @@ import java.util.Random;
 
 class Dicegame{
     public static void main(String args[]){
+	System.out.println("What is your name?");
+	System.out.print("> ");
+	Scanner sc = new  Scanner(System.in);
+	String s = sc.next();
+	System.out.println("Hello, "+s+"!");
+	
 	Random ran = new Random();
 	int num1 = ran.nextInt(7);
 	int num2 = ran.nextInt(7);
